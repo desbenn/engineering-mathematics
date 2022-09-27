@@ -1,2 +1,2 @@
-# engineering-mathematics
-Engineering Mathematics
+# Engineering Mathematics
+Engineering Mathematics with Java
