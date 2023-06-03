@@ -1,5 +1,5 @@
 
-package jm.com.dpbennett.engineering.mathematics;
+package jm.com.dpbennett.maths;
 
 //import org.apache.commons.numbers.core
 
