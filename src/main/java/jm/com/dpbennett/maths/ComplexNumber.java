@@ -5,7 +5,6 @@ package jm.com.dpbennett.maths;
 
 import org.apache.commons.math3.complex.Complex;
 
-
 /**
  *
  * @author Desmond Bennett

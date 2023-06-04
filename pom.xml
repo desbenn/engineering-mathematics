@@ -13,15 +13,24 @@
     <name>Engineering Mathematics</name>
     <description>Engineering Mathematics with Java.</description>
     <dependencies>
+                
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
             <version>3.6.1</version>
         </dependency>
+        
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math4-core</artifactId>
+            <version>4.0-beta1</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-numbers-core</artifactId>
             <version>1.0</version>
         </dependency>
+        
     </dependencies>
 </project>
