@@ -20,13 +20,13 @@ public class FunctionPlotter {
             @Override
             public double getValue(double x) {
                 // Replace this with your own function
-                return Math.sin(x);
+                return 2*Math.exp(0.3*x); // + Math.exp(-x);//Math.sin(x);
             }
             
         };
         
         // Create the dataset
-        XYDataset dataset = DatasetUtils.sampleFunction2D(function, -10.0, 10.0, 100, "Function");
+        XYDataset dataset = DatasetUtils.sampleFunction2D(function, -2.0, 3.0, 100, "Function");
         
         // Create the chart
         JFreeChart chart = ChartFactory.createXYLineChart(

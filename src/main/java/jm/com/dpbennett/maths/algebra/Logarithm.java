@@ -11,8 +11,7 @@ package jm.com.dpbennett.maths.algebra;
 public class Logarithm {
     
     public static void main(String[] args) {
-        System.out.println("Lg 27.5: " + Math.log10(27.5));
-        
+        System.out.println("Lg 27.5: " + Math.log10(27.5));        
         System.out.println("Ln 3.65: " + Math.log(3.65));
     }
 }
