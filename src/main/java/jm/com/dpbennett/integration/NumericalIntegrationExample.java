@@ -1,4 +1,4 @@
-package jm.com.dpbennett.maths.integration;
+package jm.com.dpbennett.integration;
 
 import org.apache.commons.math3.analysis.UnivariateFunction;
 import org.apache.commons.math3.analysis.integration.SimpsonIntegrator;

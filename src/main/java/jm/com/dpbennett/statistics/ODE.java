@@ -1,4 +1,4 @@
-package jm.com.dpbennett.maths;
+package jm.com.dpbennett.statistics;
 
 //import org.apache.commons.math3.ode.FirstOrderDifferentialEquations;
 //import org.apache.commons.math3.ode.FirstOrderIntegrator;

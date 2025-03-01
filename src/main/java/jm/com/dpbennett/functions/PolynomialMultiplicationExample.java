@@ -1,4 +1,4 @@
-package jm.com.dpbennett.maths.functions;
+package jm.com.dpbennett.functions;
 
 import org.apache.commons.math3.analysis.polynomials.PolynomialFunction;
 

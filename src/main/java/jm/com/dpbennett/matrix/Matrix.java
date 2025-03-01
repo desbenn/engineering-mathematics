@@ -1,4 +1,4 @@
-package jm.com.dpbennett.maths.matrix;
+package jm.com.dpbennett.matrix;
 
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
 import org.apache.commons.math3.linear.LUDecomposition;

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package jm.com.dpbennett.maths.algebra;
+package jm.com.dpbennett.algebra;
 
 import static java.lang.Math.pow;
 
