@@ -1,12 +1,16 @@
 package jm.com.dpbennett.optimization;
 
-import org.apache.commons.math3.optim.linear.*;
+import java.util.ArrayList;
+import java.util.Collection;
 import org.apache.commons.math3.optim.nonlinear.scalar.GoalType;
 import org.apache.commons.math3.optim.OptimizationData;
 import org.apache.commons.math3.optim.PointValuePair;
-
-import java.util.ArrayList;
-import java.util.Collection;
+import org.apache.commons.math3.optim.linear.LinearConstraint;
+import org.apache.commons.math3.optim.linear.LinearConstraintSet;
+import org.apache.commons.math3.optim.linear.LinearObjectiveFunction;
+import org.apache.commons.math3.optim.linear.NonNegativeConstraint;
+import org.apache.commons.math3.optim.linear.Relationship;
+import org.apache.commons.math3.optim.linear.SimplexSolver;
 
 public class ToyOptimization {
 
