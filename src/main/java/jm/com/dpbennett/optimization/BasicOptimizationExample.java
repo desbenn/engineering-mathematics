@@ -10,7 +10,7 @@ import com.google.ortools.linearsolver.MPVariable;
 /**
  * Minimal Linear Programming example to showcase calling the solver.
  */
-public final class BasicExample {
+public final class BasicOptimizationExample {
 
     public static void main(String[] args) {
         Loader.loadNativeLibraries();
@@ -68,6 +68,6 @@ public final class BasicExample {
         System.out.println("Problem solved in " + solver.iterations() + " iterations");
     }
 
-    private BasicExample() {
+    private BasicOptimizationExample() {
     }
 }
