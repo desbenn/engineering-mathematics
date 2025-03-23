@@ -1,8 +1,6 @@
 package jm.com.dpbennett.statistics;
 
-import java.util.Arrays;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
-import org.apache.commons.math3.stat.Frequency;
 
 /**
  *

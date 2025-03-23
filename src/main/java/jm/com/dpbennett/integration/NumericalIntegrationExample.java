@@ -7,13 +7,8 @@ import org.apache.commons.math3.analysis.integration.UnivariateIntegrator;
 public class NumericalIntegrationExample {
 
     public static void main(String[] args) {
-        // Define the function to integrate: f(x) = x^2
-        UnivariateFunction function = new UnivariateFunction() {
-            @Override
-            public double value(double x) {
-                return Math.log(x) * Math.sin(x);
-            }
-        };
+        // Define the function to integrate: f(x)
+        UnivariateFunction function = (double x) -> Math.log(x) * Math.sin(x);
 
         // Create an instance of a SimpsonIntegrator
         UnivariateIntegrator integrator = new SimpsonIntegrator();
